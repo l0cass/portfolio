@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+:root {
+  font-family: "Roboto", system-ui, sans-serif;
+  color: #101010;
+  background-color: #ffffff;
+}
+
+@layer utilities {
+  .list-square {
+    list-style: square;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
